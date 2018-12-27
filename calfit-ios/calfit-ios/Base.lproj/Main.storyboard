@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLa-3k-kkN">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLa-3k-kkN">
                                 <rect key="frame" x="87" y="152" width="200" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Daily Calorie Report"/>
@@ -47,15 +47,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="QUa-cQ-fzM"/>
+                    <connections>
+                        <outlet property="calButton" destination="tLa-3k-kkN" id="dEx-EV-g9e"/>
+                        <outlet property="trackMealsButton" destination="c0f-A9-m5d" id="oiK-fj-W8T"/>
+                        <outlet property="weightLossButton" destination="8pR-hH-Wtg" id="XUq-61-cd3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="131.78410794602701"/>
         </scene>
-        <!--View Controller-->
+        <!--Track Meals View Controller-->
         <scene sceneID="rR2-ai-h2M">
             <objects>
-                <viewController id="1iM-PG-P4k" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="trackMeals" id="1iM-PG-P4k" customClass="TrackMealsViewController" customModule="calfit_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FXV-2a-Bx8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="1856" y="153"/>
         </scene>
-        <!--View Controller-->
+        <!--Weight Loss View Controller-->
         <scene sceneID="6No-gs-FMN">
             <objects>
-                <viewController id="a33-8y-bW0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="weightLoss" id="a33-8y-bW0" customClass="WeightLossViewController" customModule="calfit_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ek-qj-iHP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,22 +87,13 @@
             </objects>
             <point key="canvasLocation" x="1859" y="861"/>
         </scene>
-        <!--View Controller-->
+        <!--Calorie Report View Controller-->
         <scene sceneID="pHz-Hz-6t2">
             <objects>
-                <viewController id="YLo-CZ-P8U" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="calorieReport" id="YLo-CZ-P8U" customClass="CalorieReportViewController" customModule="calfit_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3FC-EB-87w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Daily Calorie Report" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RGj-HX-bd7">
-                                <rect key="frame" x="112" y="96" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aWS-yq-gdK"/>
                     </view>

@@ -13,6 +13,12 @@
 		3F77346121D417E100509B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F77346021D417E100509B71 /* Assets.xcassets */; };
 		3F77346421D417E100509B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F77346221D417E100509B71 /* LaunchScreen.storyboard */; };
 		3F77346F21D417E200509B71 /* calfit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77346E21D417E200509B71 /* calfit_iosTests.swift */; };
+		3FC00BA421D57F210003801E /* CalorieReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC00BA221D57F210003801E /* CalorieReportViewController.swift */; };
+		3FC00BA521D57F210003801E /* CalorieReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC00BA321D57F210003801E /* CalorieReportViewController.xib */; };
+		3FC00BA821D57FAC0003801E /* TrackMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC00BA621D57FAC0003801E /* TrackMealsViewController.swift */; };
+		3FC00BA921D57FAC0003801E /* TrackMealsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC00BA721D57FAC0003801E /* TrackMealsViewController.xib */; };
+		3FC00BAC21D57FFF0003801E /* WeightLossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC00BAA21D57FFF0003801E /* WeightLossViewController.swift */; };
+		3FC00BAD21D57FFF0003801E /* WeightLossViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC00BAB21D57FFF0003801E /* WeightLossViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		3F77346A21D417E200509B71 /* calfit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calfit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F77346E21D417E200509B71 /* calfit_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calfit_iosTests.swift; sourceTree = "<group>"; };
 		3F77347021D417E200509B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC00BA221D57F210003801E /* CalorieReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieReportViewController.swift; sourceTree = "<group>"; };
+		3FC00BA321D57F210003801E /* CalorieReportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalorieReportViewController.xib; sourceTree = "<group>"; };
+		3FC00BA621D57FAC0003801E /* TrackMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMealsViewController.swift; sourceTree = "<group>"; };
+		3FC00BA721D57FAC0003801E /* TrackMealsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackMealsViewController.xib; sourceTree = "<group>"; };
+		3FC00BAA21D57FFF0003801E /* WeightLossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLossViewController.swift; sourceTree = "<group>"; };
+		3FC00BAB21D57FFF0003801E /* WeightLossViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightLossViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 				3F77345921D417DF00509B71 /* AppDelegate.swift */,
 				3F77345B21D417DF00509B71 /* ViewController.swift */,
 				3F77345D21D417DF00509B71 /* Main.storyboard */,
+				3FC00BAA21D57FFF0003801E /* WeightLossViewController.swift */,
+				3FC00BAB21D57FFF0003801E /* WeightLossViewController.xib */,
+				3FC00BA621D57FAC0003801E /* TrackMealsViewController.swift */,
+				3FC00BA721D57FAC0003801E /* TrackMealsViewController.xib */,
+				3FC00BA221D57F210003801E /* CalorieReportViewController.swift */,
+				3FC00BA321D57F210003801E /* CalorieReportViewController.xib */,
 				3F77346021D417E100509B71 /* Assets.xcassets */,
 				3F77346221D417E100509B71 /* LaunchScreen.storyboard */,
 				3F77346521D417E100509B71 /* Info.plist */,
@@ -180,7 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F77346421D417E100509B71 /* LaunchScreen.storyboard in Resources */,
+				3FC00BA921D57FAC0003801E /* TrackMealsViewController.xib in Resources */,
 				3F77346121D417E100509B71 /* Assets.xcassets in Resources */,
+				3FC00BAD21D57FFF0003801E /* WeightLossViewController.xib in Resources */,
+				3FC00BA521D57F210003801E /* CalorieReportViewController.xib in Resources */,
 				3F77345F21D417DF00509B71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC00BA421D57F210003801E /* CalorieReportViewController.swift in Sources */,
 				3F77345C21D417DF00509B71 /* ViewController.swift in Sources */,
 				3F77345A21D417DF00509B71 /* AppDelegate.swift in Sources */,
+				3FC00BA821D57FAC0003801E /* TrackMealsViewController.swift in Sources */,
+				3FC00BAC21D57FFF0003801E /* WeightLossViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
